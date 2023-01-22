@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharomszog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <div>
+    <form onsubmit="return haromszogVizsgalat()">
+        <fieldset class="Form">
+        <legend>Derékszögű háromszög oldalhosszai</legend>
+        
+        <label>egyik befogó: <input type="number" id="befogo1"></label>
+        <br>
+        <label>másik befogó: <input type="number" id="befogo2"></label>
+        <br>
+        <label>átfogó: <input type="number" id="atfogo"></label>
+        <br>
+        <button type="button" onclick="haromszogVizsgalat()">Megszerkeszthető?</button>
+        <button type="button" onclick="generateRandom()">Véletlen oldalhosszak 10..100-ból</button>
+        <button type="button" onclick="atfogoKiszamitasa()">Átfogó kiszámítása?</button>
+    </fieldset>
+    </form>
+    </div>
+</body>
+</html>
