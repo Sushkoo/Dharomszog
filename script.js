@@ -12,8 +12,7 @@ function haromszogVizsgalat(){
             alert("A derékszögű háromszög NEM szerkeszthető meg!");
         }
     }
-    return false;
-    }
+    
 
 function generateRandom(){
     var min=10;
